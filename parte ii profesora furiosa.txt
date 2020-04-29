@@ -1,0 +1,17 @@
+function aperturas(array, alumnos) {
+    var resultado = [];
+    for (var i = 0; i < array.length; i++) {
+        var alumnosLlegada = 0;
+    for (var j = 0; j < array[i].length; j++) {
+        if (array[i][j] <=0) {
+         alumnosLlegada++
+            }
+        }
+        if (alumnosLlegada >= alumnos) {
+            resultado.push(true)
+        }else {
+            resultado.push(false)
+        }
+    }
+    return resultado;
+}
