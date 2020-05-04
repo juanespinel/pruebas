@@ -10,7 +10,8 @@ console.log(todasLasPelis);
 
 let generoComedia = {
     nombreGenero: 'Comedia',
-    popularidad: 3
+    popularidad: 3,
+    netflix: 'si'
 };
 
 let miPobreAngelito = {
