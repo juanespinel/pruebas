@@ -1,12 +1,20 @@
 //SE UTILIZA PARA CORRER SOBRE OBJETOS LITERALES
 
-let bart = {
+let simpsons = [
+    {
     madre: "Marge",
     padre: "Homero",
     hobbie: "Skate",
     colorRemera: "Naranja"
-}
+    },
+    {
+    madre: "Marge",
+    padre: "Homero",
+    hobbie: "Skate",
+    colorRemera: "Naranja"
+    }
+];
 
-for (const atributo in bart){
-    console.log(bart[atributo])
+for (const atributo in simpsons){
+    console.log(simpsons[atributo])
 }
